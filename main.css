@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('img/bgImage.jpg')center/cover no-repeat;
+}
+
+.images{
+    background-color: white;
+    flex:0 0 55%;
+    min-height: 90vh;
+    background: url('img/bcg-0.jpg')center/cover no-repeat;
+    border-radius: 50px;
+    box-shadow: 5px 10px rgb(174, 136, 118);
+    position: relative;
+}
+
+.btn{
+    display: inline-block;
+    background-color: rgb(230, 201, 201);
+    color:rgb(174, 136, 118);
+    border: 3px solid rgb(174, 136, 118);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 5px rgb(150, 112, 95);
+    outline: none;
+}
+
+.prevBtn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+
+.nextBtn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+}
+
+.btn:active{
+    box-shadow: 1px 1px rgb(150, 112, 95);
+}
+
+.btn:hover{
+    background-color: rgb(215, 182, 167);
+    color: rgb(174, 136, 118);
+}
